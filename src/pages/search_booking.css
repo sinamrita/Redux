@@ -1,0 +1,17 @@
+.Home input{
+    width: initial;
+    margin: 25px 0px;
+    width: 300px;
+}
+
+.Home table {
+    width: calc(100vw - 55px);
+    min-width: 0;
+}
+
+#no_booking{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}

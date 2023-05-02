@@ -1,0 +1,177 @@
+Card,
+#Card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 280px;
+    margin: 35px;
+    text-align: center;
+    font-family: arial;
+    float: left;
+    padding: 10px;
+    opacity: 2;
+
+    background: rgb(250, 233, 233);
+}
+
+#root {
+    padding: 10px;
+}
+
+.search_Bar {
+    float: right;
+}
+
+.Card ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 2px;
+    overflow: hidden;
+    float: left;
+    margin-top: 20px;
+}
+
+.Card ul li {
+    padding: 5px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+body {
+    background-image: url(./images/stadium.jpg);
+    background-size: cover;
+
+    height: 690px;
+}
+
+header {
+    background-color: black;
+    color: azure;
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+h1 {
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.slot ul li {
+    padding: 5px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.slot ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 2px;
+    overflow: hidden;
+    float: left;
+    margin-top: 20px;
+}
+
+.Search {
+    width: 300px;
+    border-radius: 5px;
+    height: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 8px;
+}
+
+.Booking_List,
+#Book_List {
+    background: white;
+    max-width: 100%;
+
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+
+    color: black;
+}
+
+#Book_List_header {
+    background: lightgray;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+#Book_List_header td {
+    width: 250px;
+}
+
+#Book_List {
+    width: 250px;
+    height: 30px;
+}
+
+table {
+    table-layout: fixed;
+    max-width: 100%;
+    border: 1px solid;
+}
+
+td#Book_List {
+    width: 250px;
+    table-layout: initial;
+}
+
+.Booking_List {
+    margin-left: 35px;
+    margin-top: 50px;
+    border: 1px solid;
+}
+
+#book_button {
+    width: 20%;
+    padding: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 20px;
+}
+
+label#contact {
+    background-color: white;
+    color: black;
+}
+
+#contact {
+    padding: 5px;
+    width: 50%;
+    margin-left: 2%;
+    margin-bottom: 7px;
+    border-radius: 4px;
+}
+
+#header_Date {
+    padding: 5px;
+    margin-bottom: 0px;
+}
+
+#noBooking {
+    background-color: aliceblue;
+    padding: 20px;
+    font-weight: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+#home_img {
+    background-color: aliceblue;
+    float: right;
+}
+
+#error_msg {
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    right: 410px;
+    color: #d14255;
+    top: 650px;
+}

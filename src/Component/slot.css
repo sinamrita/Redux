@@ -1,0 +1,25 @@
+.slot_list
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 75px);
+    height: 100%;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.slot_list h4 {
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    height: 100%;
+}
+
+.slot_list span {
+    display: block;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

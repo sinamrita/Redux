@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    cursor: pointer;
+}
+
+.games-list {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0px;
+}
+
+.game-card {
+    padding: 30px;
+}
+
+.Home h1 {
+    text-align: center;
+}
+
+.games-list h4 {
+    margin: 20px;
+}
+
+.games-list ul {
+    padding-left: 0px;
+}
+
+.games-list li {
+    list-style: none;
+}

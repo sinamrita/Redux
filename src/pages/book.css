@@ -1,0 +1,48 @@
+.header_right,
+.header_left {
+    display: flex;
+    align-items: center;
+}
+
+.slot-picker {
+    display: flex;
+    align-items: flex-start;
+    max-width: 1140px;
+    margin: 100px auto;
+}
+
+.slot-picker .card {
+    width: 312px;
+    min-width: 312px;
+}
+
+#not_opened {
+    background-color: aliceblue;
+    padding: 0 20px;
+    width: fit-content;
+    margin: 161px 0;
+}
+
+.slot-picker_right {
+    flex-grow: 1;
+}
+
+.rdp-table {
+    border: 0px;
+}
+
+#slot-display .error {
+    display: block;
+    font-size: 15px;
+    text-align: center;
+}
+
+.slot-booking-form{
+    grid-area: form;
+}
+
+.slot-booking-form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
